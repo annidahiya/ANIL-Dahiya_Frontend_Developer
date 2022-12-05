@@ -1,0 +1,37 @@
+.displayContainer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgb(250, 248, 249);
+    width: 700px;
+    height: 70%;
+    z-index: 1000;
+    padding: 50px;
+    border-radius: 10px;
+    color: rgb(149, 144, 144);
+    padding:50px;
+    font-weight: 700;
+    text-align: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/fnfyE7cDwV9JWCopNK8Ycb-1200-80.jpg");
+}
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+bottom: 0;
+z-index: 1000;
+}
+span{
+    color: rgb(251, 139, 139);
+    font-weight: 500;
+    margin-left: 20px;
+}
+.close{
+   margin:10% 0 50% 0 ;
+   width: 300px;
+   height: 50px;
+
+}
